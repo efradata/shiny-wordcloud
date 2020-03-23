@@ -17,7 +17,7 @@ The image is available from [Docker Hub](https://registry.hub.docker.com/u/flavi
 To run this Shiny App on your computer:
 
 ```sh
-docker run --rm -p 80:80 flaviobarros/shiny-wordcloud
+docker run --rm -p 80:80 efradata/shiny-wordcloud
 ```
 
 and it will avaliable at http://127.0.0.1/ or http://localhost
@@ -26,7 +26,7 @@ You can run the container at other ports. It can happen that there is some servi
 To run the app at PORT 3838 for example, you can use:
 
 ```sh
-docker run --rm -p 3838:80 flaviobarros/shiny-wordcloud
+docker run --rm -p 3838:80 efradata/shiny-wordcloud
 ```
 
 ## Intented usage:
